@@ -1,0 +1,1 @@
+var e=new WeakMap;function t(t,i){let f=i?n(i)??r(i):{};return e.set(t,f),f}function n(t){if(!i(t))return;let n=e.get(t);if(n)return n;if("detail"in t){let n=t.detail;if(i(n))return e.get(n)}}function r(t){let n={};return e.set(t,n),n}function i(e){return"object"==typeof e&&!!e||"function"==typeof e}export{t};
